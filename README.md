@@ -1,2 +1,3 @@
 # vscode-settings
-My vs-code settings
+
+Settings - (Link)[https://github.com/nylestroke/vscode-settings/blob/master/settings.json]
