@@ -36,10 +36,10 @@
 	"explorer.confirmDragAndDrop": false,
 
 	//Workbench
-	"workbench.colorTheme": "FlatUI Dark",
+	"workbench.colorTheme": "Cobalt2",
 	//Разрешить уменьшение размера вкладок, когда доступного места недостаточно для отображения всех вкладок одновременно.
 	"workbench.editor.tabSizing": "shrink",
-	"workbench.iconTheme": "helium-icon-theme",
+	"workbench.iconTheme": "vscode-icons",
 	"workbench.startupEditor": "newUntitledFile",
 
 	//Debug
@@ -49,12 +49,9 @@
 	"debug.showBreakpointsInOverviewRuler": false,
 
 	//Format
-	"prettier.semi": true,
 	"prettier.useTabs": true,
 	"editor.formatOnSave": true,
 	"editor.formatOnPaste": true,
-	"prettier.singleQuote": true,
-	"prettier.jsxSingleQuote": true,
 	//Включите круглые скобки вокруг единственного параметра функции стрелки
 	"prettier.arrowParens": "avoid",
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -64,7 +61,6 @@
 
 	//Terminal
 	"terminal.integrated.fontSize": 15,
-	"terminal.integrated.tabs.enabled": false,
 
 	//Other
 	//Зафиксируйте все изменения, когда нет поэтапных изменений.
@@ -98,21 +94,6 @@
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 
-	//Spell checker
-	"cSpell.language": "en,ru",
-	"cSpell.userWords": [],
-	"cSpell.enabled": true,
-	"cSpell.enableFiletypes": [
-		"blade",
-		"jsx",
-		"sass",
-		"vue",
-		"tsx",
-		"js",
-		"ts",
-		"html"
-	],
-
 	"editor.unicodeHighlight.allowedCharacters": {
 		"а": true,
 		"с": true,
@@ -122,8 +103,7 @@
 	},
 	"editor.cursorSmoothCaretAnimation": true,
 	"workbench.statusBar.visible": false,
-	"window.commandCenter": true,
 	"workbench.layoutControl.enabled": false,
-	"workbench.sideBar.location": "right",
-	"tabnine.experimentalAutoImports": true
+	"tabnine.experimentalAutoImports": true,
+	"workbench.activityBar.visible": false
 }
